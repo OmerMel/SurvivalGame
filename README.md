@@ -4,6 +4,8 @@
   <img src="./Result.jpeg" alt="Survived in Texas" width="150">
 </p>
 
+![Alt text](Result.jpeg "Survived in Texas")
+
 I downloaded the APK file, uploaded it to the website http://www.javadecompilers.com/apktool, and got the project files.
 
 After looking through the folders and files, I found 2 Java files that matched the files typically used in an Android project.
