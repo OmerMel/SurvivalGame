@@ -1,8 +1,8 @@
 # SurvivalGame - Reverse Engineering
 
-<p align="center">
+
   ![Alt text](Result.jpeg "Survived in Texas")
-</p>
+
 
 I downloaded the APK file, uploaded it to the website http://www.javadecompilers.com/apktool, and got the project files.
 
