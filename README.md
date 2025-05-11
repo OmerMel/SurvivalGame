@@ -11,8 +11,8 @@ I opened a new Android project and copied the activity files as well as their co
 I went over the errors, searched for the missing files, and added them to the new project I created.<br />
 When I copied a line into the strings.xml file, **I noticed there were zero-width characters**, so I removed them.<br />
 I ran the app, and after pressing the button, it crashed.<br />
-A quick glance at Logcat showed me that the AndroidManifest.xml file needed to be updated:<br />
-**There was a missing Internet permission**, so I added:<br />
+A quick look at Logcat showed me that the AndroidManifest.xml file needed to be updated:<br />
+**There was a missing Internet permission**, because I didn't copied the AndroidManifest.xml from the game, so I added:<br />
 
 ```java
 <uses-permission android:name="android.permission.INTERNET" />
